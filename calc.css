@@ -1,0 +1,56 @@
+/* Calculator CSS File*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightsteelblue
+}
+
+#calculator {
+  padding: 25px;
+  border-radius: 25px;
+  margin-top: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+  background: slateblue;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+input {
+  padding: 15px;
+  width: 20%;
+  border: none;
+  background: white;
+}
+
+input:focus{
+  background-color: whitesmoke;
+  outline: none;
+}
+
+button {
+  padding: 15px;
+  width: 30%;
+  margin-top: 10px;
+  background: purple;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+#addBtn:hover {
+  background-color: darkgray;
+}
+
+#output {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}

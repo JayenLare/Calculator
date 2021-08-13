@@ -1,0 +1,30 @@
+<!-- Calculator HTML file -->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Calculator</title>
+        <meta name="description" content="Simple 4 function calculator">
+        <meta name="author" content="Jayen Lare">
+
+        <link rel="stylesheet" href="calc.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <header>
+                <h1>4 Function Calculator</h1>
+                <hr>
+            </header>
+            <br>
+            <input type="number" id="num1" placeholder="Enter a number"></input>       
+            <input type="string" id="op" placeholder="Enter +, -, *, or /"></input>
+            <input type="number" id="num2" placeholder="Enter a number"></input>
+            <button onclick="calc()" id="solve">Solve</button>
+            <button onclick="resetButton()" id="resetButton">Reset</button>
+            <h2 id="output"></h2>
+        </div>
+        <script src="calc.js"></script>
+    </body>
+</html>
